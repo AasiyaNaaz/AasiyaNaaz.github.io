@@ -1,0 +1,53 @@
+<script>
+  // Scroll-reveal: fades/slides in any element with class="reveal" as it enters the viewport.
+  // This site has no <ClientRouter />, so DOMContentLoaded is the real trigger; astro:page-load
+  // is also listened for in case view transitions get added later.
+  function initReveal() {
+    const elements = document.querySelectorAll<HTMLElement>(".reveal:not(.revealed)");
+    if (!elements.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15, rootMargin: "0px 0px -40px 0px" }
+    );
+
+    elements.forEach((el) => observer.observe(el));
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initReveal);
+  } else {
+    initReveal();
+  }
+  document.addEventListener("astro:page-load", initReveal);
+</script>
+
+<style is:global>
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+</style>

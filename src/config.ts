@@ -96,26 +96,31 @@ const config = {
         "Owned the Structures module end-to-end — designed music-integrated mini-games teaching resonance via real-time audio-visual feedback",
       ],
     },
+  ],
+
+  activities: [
     {
-      company: "INTRA IIT House Cup",
-      title: "House Head, Team Mahoraga",
+      org: "INTRA IIT House Cup",
+      role: "House Head, Team Mahoraga",
       dateRange: "IIT Tirupati",
       bullets: [
         "Led Team Mahoraga as House Head in IIT Tirupati's annual cultural and literary cup, competing across 5 houses",
         "Guided the team to a 2nd place overall finish",
       ],
+      emoji: "🏆",
     },
     {
-      company: "Statistics Club",
-      title: "Core Member — Events Management",
+      org: "Statistics Club",
+      role: "Core Member — Events Management",
       dateRange: "2025-26",
       bullets: [
         "Organized and ran events to encourage statistical thinking across campus, including a guess-based statistical applications game",
       ],
+      emoji: "📊",
     },
     {
-      company: "Debate Club",
-      title: "Core Member",
+      org: "Debate Club",
+      role: "Core Member",
       dateRange: "IIT Tirupati",
       bullets: [
         "Held debate events including Shipwreck and JAM, and organized competitions for the club",
@@ -123,27 +128,31 @@ const config = {
         "Represented IIT Tirupati's debate team at Inter-IIT",
         "Won 2nd place in Spin a Yarn and 3rd place in Shipwreck (intra-college debate events)",
       ],
+      emoji: "🎙️",
     },
     {
-      company: "Medha Club",
-      title: "Core Member",
+      org: "Medha Club",
+      role: "Core Member",
       dateRange: "2 years",
       bullets: [
         "Contributed for 2 years to a platform recognizing women's accomplishments and fostering support within campus",
         "Played a key role organizing Women's Day celebrations for 2 consecutive years",
       ],
+      emoji: "💜",
     },
     {
-      company: "Tirutsava (IIT Tirupati's Cultural Fest)",
-      title: "Event Management Core Member — Tirutsava 2k25",
+      org: "Tirutsava (IIT Tirupati's Cultural Fest)",
+      role: "Event Management Core Member — Tirutsava 2k25",
       dateRange: "2025",
       bullets: ["Core member of the event management team for IIT Tirupati's annual cultural fest"],
+      emoji: "🎉",
     },
     {
-      company: "Tirutsava (IIT Tirupati's Cultural Fest)",
-      title: "Graphic & Content Core Member — Tirutsava 2k26",
+      org: "Tirutsava (IIT Tirupati's Cultural Fest)",
+      role: "Graphic & Content Core Member — Tirutsava 2k26",
       dateRange: "2026",
       bullets: ["Designed official mailers and wrote anchoring speeches for the fest"],
+      emoji: "🎨",
     },
   ],
 
