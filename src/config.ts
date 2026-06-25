@@ -59,6 +59,7 @@ const config = {
         "Competitive 2-4 player board game balancing economic growth against environmental impact — 80-space animated board, 75+ unique building cards, and a live 3D city view rendered in Three.js.",
       link: "https://github.com/kartikssingh/Ecopolis",
       skills: ["React 19", "Three.js", "Vite", "JavaScript"],
+      image: "/images/projects/ecopolis.png",
     },
     {
       name: "CodeBird — AI-Assisted App Builder",
