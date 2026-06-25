@@ -36,42 +36,42 @@ const config = {
       name: "RISC-V Pipeline & Virtual Memory Simulator",
       description:
         "Cycle-accurate C++ simulator of a 5-stage RISC-V pipeline with hazard detection and register forwarding, extended with a 16-entry DTLB and configurable cache hierarchy — hit 97.8% TLB hit rates across 715K-instruction traces.",
-      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      link: "https://github.com/TanujaJamadar/riscv-architecture-simulator",
       skills: ["C++", "RISC-V", "Cache Simulation", "Virtual Memory"],
     },
     {
       name: "Adobe Digital Experience Challenge",
       description:
         "Team project building a modular feature-engineering and data pipeline for a 300K-row social media dataset, with 72 engineered features feeding a downstream virality-prediction and tweet-generation model. Owned the preprocessing layer end-to-end, including parallelized URL-liveness verification across 300K+ records (96.3% verified-alive).",
-      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      link: "https://github.com/shivam-purve/Adobe-Digital-Experience-Challenge",
       skills: ["Python", "Pandas", "scikit-learn", "ThreadPoolExecutor"],
     },
     {
       name: "SafeBuy: E-Commerce Compliance Scanner",
       description:
         "Automated tool that scrapes Flipkart/Amazon listings, screens them against consumer-protection rules, and generates structured PDF risk reports — 93% rule-classification accuracy across 100+ real listings. Won 2nd place at a class hackathon (AI for Social Wellbeing).",
-      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      link: "https://github.com/Siddhardha-11/e---commerce-compliance-tool",
       skills: ["FastAPI", "BeautifulSoup", "SQLAlchemy", "React", "PostgreSQL"],
     },
     {
       name: "Ecopolis: Multiplayer Sustainability City-Builder",
       description:
         "Competitive 2-4 player board game balancing economic growth against environmental impact — 80-space animated board, 75+ unique building cards, and a live 3D city view rendered in Three.js.",
-      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      link: "https://github.com/kartikssingh/Ecopolis",
       skills: ["React 19", "Three.js", "Vite", "JavaScript"],
     },
     {
       name: "CodeBird — AI-Assisted App Builder",
       description:
         "Bolt.new-style local app builder where I led code generation as Code Gen Lead — built the project scaffolding engine and a shared multi-provider AI fallback layer used across the whole team.",
-      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      link: "https://github.com/Siddhardha-11/CodeBird",
       skills: ["React", "Vite", "Express", "Node.js"],
     },
     {
       name: "Lyrica",
       description:
         "Gamified Flutter app teaching Data Structures, Cryptography, and Structural Engineering through music and animation — owned the Structures module, using real-time audio-visual feedback to teach resonance.",
-      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      link: "https://github.com/AasiyaNaaz/lyrica",
       skills: ["Flutter", "Dart", "Animations"],
     },
   ],
@@ -154,7 +154,6 @@ const config = {
       dateRange: "2024 - 2028",
       achievements: [
         "CGPA: 7.92",
-        "Won 2nd place in Newspaper Runway (intra-college fashion design event)",
         "Competitive programmer on Codeforces — current rating 707, actively competing and climbing",
       ],
     },
