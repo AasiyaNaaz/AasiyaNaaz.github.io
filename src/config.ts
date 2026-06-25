@@ -1,92 +1,170 @@
-export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+const config = {
+  name: "Aasiya Naaz",
+  title: "CS Undergrad @ IIT Tirupati",
+  description: "Building accessibility tools, game systems, and ML-driven applications.",
+  accentColor: "#1d4ed8", 
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "aasiyanaaz2003@gmail.com",
+    linkedin: "https://www.linkedin.com/in/aasiya-naaz/", // 
+    github: "https://github.com/AasiyaNaaz",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a Computer Science undergrad at IIT Tirupati who likes building things end-to-end — from cycle-accurate hardware simulators to gamified learning apps to compliance-detection tools. I'm drawn to projects that sit at the intersection of systems thinking and real-world impact, whether that's squeezing TLB hit rates above 97% or building data pipelines for social media analysis. I also compete on Codeforces (current rating 707, actively climbing) and am a core member of the Statistics Club and Literary Council at IIT Tirupati.",
+
+  skills: [
+    "C/C++",
+    "Python",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Dart",
+    "SQL",
+    "React",
+    "Express",
+    "Flutter",
+    "Three.js",
+    "Pandas",
+    "scikit-learn",
+    "Git",
+    "Linux",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "RISC-V Pipeline & Virtual Memory Simulator",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Cycle-accurate C++ simulator of a 5-stage RISC-V pipeline with hazard detection and register forwarding, extended with a 16-entry DTLB and configurable cache hierarchy — hit 97.8% TLB hit rates across 715K-instruction traces.",
+      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      skills: ["C++", "RISC-V", "Cache Simulation", "Virtual Memory"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Adobe Digital Experience Challenge",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Team project building a modular feature-engineering and data pipeline for a 300K-row social media dataset, with 72 engineered features feeding a downstream virality-prediction and tweet-generation model. Owned the preprocessing layer end-to-end, including parallelized URL-liveness verification across 300K+ records (96.3% verified-alive).",
+      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      skills: ["Python", "Pandas", "scikit-learn", "ThreadPoolExecutor"],
     },
     {
-      name: "ExtensionKit",
+      name: "SafeBuy: E-Commerce Compliance Scanner",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Automated tool that scrapes Flipkart/Amazon listings, screens them against consumer-protection rules, and generates structured PDF risk reports — 93% rule-classification accuracy across 100+ real listings. Won 2nd place at a class hackathon (AI for Social Wellbeing).",
+      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      skills: ["FastAPI", "BeautifulSoup", "SQLAlchemy", "React", "PostgreSQL"],
+    },
+    {
+      name: "Ecopolis: Multiplayer Sustainability City-Builder",
+      description:
+        "Competitive 2-4 player board game balancing economic growth against environmental impact — 80-space animated board, 75+ unique building cards, and a live 3D city view rendered in Three.js.",
+      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      skills: ["React 19", "Three.js", "Vite", "JavaScript"],
+    },
+    {
+      name: "CodeBird — AI-Assisted App Builder",
+      description:
+        "Bolt.new-style local app builder where I led code generation as Code Gen Lead — built the project scaffolding engine and a shared multi-provider AI fallback layer used across the whole team.",
+      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      skills: ["React", "Vite", "Express", "Node.js"],
+    },
+    {
+      name: "Lyrica",
+      description:
+        "Gamified Flutter app teaching Data Structures, Cryptography, and Structural Engineering through music and animation — owned the Structures module, using real-time audio-visual feedback to teach resonance.",
+      link: "https://github.com/AasiyaNaaz/YOUR-REPO-NAME",
+      skills: ["Flutter", "Dart", "Animations"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "CodeBird (Team Project)",
+      title: "Code Generation Lead",
+      dateRange: "2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Owned mockProject.js, the core scaffolding engine bootstrapping language-aware file trees and folder structures for generated projects",
+        "Built codebird.js, the shared frontend API service layer integrating a multi-provider AI fallback chain with graceful degradation",
+        "Designed a language-aware blank file template system so generated projects ran immediately with zero manual config",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Lyrica (Team Project)",
+      title: "Flutter Developer",
+      dateRange: "2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Built a gamified app teaching DSA, cryptography, and structural engineering through interactive music and animation",
+        "Owned the Structures module end-to-end — designed music-integrated mini-games teaching resonance via real-time audio-visual feedback",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "INTRA IIT House Cup",
+      title: "House Head, Team Mahoraga",
+      dateRange: "IIT Tirupati",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Led Team Mahoraga as House Head in IIT Tirupati's annual cultural and literary cup, competing across 5 houses",
+        "Guided the team to a 2nd place overall finish",
       ],
+    },
+    {
+      company: "Statistics Club",
+      title: "Core Member — Events Management",
+      dateRange: "2025-26",
+      bullets: [
+        "Organized and ran events to encourage statistical thinking across campus, including a guess-based statistical applications game",
+      ],
+    },
+    {
+      company: "Debate Club",
+      title: "Core Member",
+      dateRange: "IIT Tirupati",
+      bullets: [
+        "Held debate events including Shipwreck and JAM, and organized competitions for the club",
+        "Competed in APDs, JAM, and Shipwreck formats",
+        "Represented IIT Tirupati's debate team at Inter-IIT",
+        "Won 2nd place in Spin a Yarn and 3rd place in Shipwreck (intra-college debate events)",
+      ],
+    },
+    {
+      company: "Medha Club",
+      title: "Core Member",
+      dateRange: "2 years",
+      bullets: [
+        "Contributed for 2 years to a platform recognizing women's accomplishments and fostering support within campus",
+        "Played a key role organizing Women's Day celebrations for 2 consecutive years",
+      ],
+    },
+    {
+      company: "Tirutsava (IIT Tirupati's Cultural Fest)",
+      title: "Event Management Core Member — Tirutsava 2k25",
+      dateRange: "2025",
+      bullets: ["Core member of the event management team for IIT Tirupati's annual cultural fest"],
+    },
+    {
+      company: "Tirutsava (IIT Tirupati's Cultural Fest)",
+      title: "Graphic & Content Core Member — Tirutsava 2k26",
+      dateRange: "2026",
+      bullets: ["Designed official mailers and wrote anchoring speeches for the fest"],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Indian Institute of Technology, Tirupati",
+      degree: "B.Tech, Computer Science & Engineering",
+      dateRange: "2024 - 2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "CGPA: 7.92",
+        "Won 2nd place in Newspaper Runway (intra-college fashion design event)",
+        "Competitive programmer on Codeforces — current rating 707, actively competing and climbing",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "Telangana State Board",
+      degree: "Senior Secondary",
+      dateRange: "2023",
+      achievements: ["92.2%"],
     },
   ],
 };
+
+export default config;
