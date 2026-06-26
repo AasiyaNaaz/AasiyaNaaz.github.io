@@ -52,6 +52,7 @@ const config = {
         "Automated tool that scrapes Flipkart/Amazon listings, screens them against consumer-protection rules, and generates structured PDF risk reports — 93% rule-classification accuracy across 100+ real listings. Won 2nd place at a class hackathon (AI for Social Wellbeing).",
       link: "https://github.com/Siddhardha-11/e---commerce-compliance-tool",
       skills: ["FastAPI", "BeautifulSoup", "SQLAlchemy", "React", "PostgreSQL"],
+      image: "/images/projects/safebuy.png",
     },
     {
       name: "Ecopolis: Multiplayer Sustainability City-Builder",
@@ -67,6 +68,7 @@ const config = {
         "Bolt.new-style local app builder where I led code generation as Code Gen Lead — built the project scaffolding engine and a shared multi-provider AI fallback layer used across the whole team.",
       link: "https://github.com/Siddhardha-11/CodeBird",
       skills: ["React", "Vite", "Express", "Node.js"],
+      image: "/images/projects/codebird.png",
     },
     {
       name: "Lyrica",
@@ -74,6 +76,7 @@ const config = {
         "Gamified Flutter app teaching Data Structures, Cryptography, and Structural Engineering through music and animation — owned the Structures module, using real-time audio-visual feedback to teach resonance.",
       link: "https://github.com/AasiyaNaaz/lyrica",
       skills: ["Flutter", "Dart", "Animations"],
+      image: "/images/projects/lyrica.png",
     },
   ],
 
