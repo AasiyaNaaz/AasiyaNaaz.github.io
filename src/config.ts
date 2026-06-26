@@ -38,6 +38,7 @@ const config = {
         "Cycle-accurate C++ simulator of a 5-stage RISC-V pipeline with hazard detection and register forwarding, extended with a 16-entry DTLB and configurable cache hierarchy — hit 97.8% TLB hit rates across 715K-instruction traces.",
       link: "https://github.com/TanujaJamadar/riscv-architecture-simulator",
       skills: ["C++", "RISC-V", "Cache Simulation", "Virtual Memory"],
+      image: "/images/projects/riscv.png",
     },
     {
       name: "Adobe Digital Experience Challenge",
